@@ -1,0 +1,63 @@
+Per jugar en aquest joc primer s’ha de construir la Baralla que està formada per 48 cartes que es 
+distribueixen en 4 Pals que són: BAstos, COpes, ESpases i ORos, cada Pal conté 12 cartes 
+enumerades de l’1 fins al 12. Les cartes es crearan amb ordre i després es mesclen amb el mètode 
+pertinent. Les classes adjuntes a l’enunciat Baralla.java, Carta.java i Pal.java permeten aquestes 
+operacions.
+Per a la simulació s’ha d’inserir el nombre de jugadors que pot ser antre 2 i 6. Abans de començar el 
+joc s’han de repartir les cartes i s’ha d’establir (inicialitzar) la taula on es durà a terme. Totes les 
+cartes de la baralla s’han de repartir entre els jugadors, pot passar que el nombre de jugadors no 
+sigui divisible entre el nombre de cartes, si és així alguns jugadors quedaran amb una carta menys 
+però el programa no s’interromprà simplement avisarà als jugadors que no hi ha més cartes.
+En el joc, els jugadors han d’anar formant en ordre les escales corresponents a cada pal, per això 
+s’estableix la Taula que és una estructura que emmagatzemarà les 12 cartes de cada pal, inicialment 
+està buida.
+La primera part que heu de programar és la configuració del joc amb els objectes Jugador 
+indicats per l’usuari, amb el seu nom i les cartes que els pertoqui segons un mètode repartir cartes 
+que tenint com a paràmetres els jugadors i la baralla els va assignant cíclicament les cartes a cada un.
+També s’ha de crear l’objecte Taula definit com una estructura de pals x carta. Veure Fig. 1 i 2.
+Una vegada acabada la configuració comença el joc, el jugadors obtindran de manera cíclica el seu
+torn i durant aquest podran posar una de les seves cartes a la Taula. Inicialment només es poden 
+posar els sisos i després es podran anar afegint cartes en ordre tan per dalt com per baix a qualsevol 
+dels pals de la Taula. Si un jugador no té cap carta que pugui col·locar passarà i cedirà el torn al 
+pròxim jugador. El joc acaba quan un jugador es queda sense cartes.
+El que s’ha de programar és una simulació del joc on l’ordinador prendrà totes les decisions. La 
+única interactivitat que hi ha d’haver és que entre torn i torn el programa esperarà que l’usuari piqui 
+la tecla de canvi de línia per poder veure l’estat del joc. Tampoc és necessari programar cap 
+estratègia de joc, és a dir tots els jugadors fan el mateix, que consisteix en fer una cerca, dins la 
+col·lecció de cartes que li han de tocat, de la primera carta que pot ser col·locada a la Taula.
+La segona part que heu de programar és la mecànica del joc amb un repetició que acabarà quan un 
+jugador es quedi sense cap carta, gestionant un sistema de torns que va donant el torn a cada 
+jugador segons l’ordre en que s’han definit i després torna a començar pel primer. A cada torn 
+s’executa un mètode per a l’objecte jugador que té el torn on tenint la Taula com a paràmetre es 
+col·loca la primera carta possible.Per jugar en aquest joc primer s’ha de construir la Baralla que està formada per 48 cartes que es 
+distribueixen en 4 Pals que són: BAstos, COpes, ESpases i ORos, cada Pal conté 12 cartes 
+enumerades de l’1 fins al 12. Les cartes es crearan amb ordre i després es mesclen amb el mètode 
+pertinent. Les classes adjuntes a l’enunciat Baralla.java, Carta.java i Pal.java permeten aquestes 
+operacions.
+Per a la simulació s’ha d’inserir el nombre de jugadors que pot ser antre 2 i 6. Abans de començar el 
+joc s’han de repartir les cartes i s’ha d’establir (inicialitzar) la taula on es durà a terme. Totes les 
+cartes de la baralla s’han de repartir entre els jugadors, pot passar que el nombre de jugadors no 
+sigui divisible entre el nombre de cartes, si és així alguns jugadors quedaran amb una carta menys 
+però el programa no s’interromprà simplement avisarà als jugadors que no hi ha més cartes.
+En el joc, els jugadors han d’anar formant en ordre les escales corresponents a cada pal, per això 
+s’estableix la Taula que és una estructura que emmagatzemarà les 12 cartes de cada pal, inicialment 
+està buida.
+La primera part que heu de programar és la configuració del joc amb els objectes Jugador 
+indicats per l’usuari, amb el seu nom i les cartes que els pertoqui segons un mètode repartir cartes 
+que tenint com a paràmetres els jugadors i la baralla els va assignant cíclicament les cartes a cada un.
+També s’ha de crear l’objecte Taula definit com una estructura de pals x carta. Veure Fig. 1 i 2.
+Una vegada acabada la configuració comença el joc, el jugadors obtindran de manera cíclica el seu
+torn i durant aquest podran posar una de les seves cartes a la Taula. Inicialment només es poden 
+posar els sisos i després es podran anar afegint cartes en ordre tan per dalt com per baix a qualsevol 
+dels pals de la Taula. Si un jugador no té cap carta que pugui col·locar passarà i cedirà el torn al 
+pròxim jugador. El joc acaba quan un jugador es queda sense cartes.
+El que s’ha de programar és una simulació del joc on l’ordinador prendrà totes les decisions. La 
+única interactivitat que hi ha d’haver és que entre torn i torn el programa esperarà que l’usuari piqui 
+la tecla de canvi de línia per poder veure l’estat del joc. Tampoc és necessari programar cap 
+estratègia de joc, és a dir tots els jugadors fan el mateix, que consisteix en fer una cerca, dins la 
+col·lecció de cartes que li han de tocat, de la primera carta que pot ser col·locada a la Taula.
+La segona part que heu de programar és la mecànica del joc amb un repetició que acabarà quan un 
+jugador es quedi sense cap carta, gestionant un sistema de torns que va donant el torn a cada 
+jugador segons l’ordre en que s’han definit i després torna a començar pel primer. A cada torn 
+s’executa un mètode per a l’objecte jugador que té el torn on tenint la Taula com a paràmetre es 
+col·loca la primera carta possible.
